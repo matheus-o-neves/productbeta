@@ -1,0 +1,10 @@
+- criar nova branch : git checkout -b name 
+- git merge - incorporar a ramificação na linha principal.
+- git remote add origin - criar o link entre 
+- git add . = staging area
+- git commit -m "name" = commit 
+- git branch = verificar todas a s branchs criadas
+- git branch -D name = excluir branch 
+- git clone - fazer uma cópia do repositório remoto p minha maquina
+- git push origin (master )- "empurra" os commits do repositório p o repositório remoto
+- git pull origin (master) - "Puxar" os commits do github p o repositório na maquina
