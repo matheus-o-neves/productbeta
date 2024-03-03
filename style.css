@@ -1,0 +1,248 @@
+/* headlines & text */
+h1 {
+    animation-duration: 3s;
+    animation-name: showup;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    font-size: 64px;
+}
+
+.mainTittle__efect {
+    color: #18EAEA;
+    /* add gradient here*/
+}
+
+.subTittle__efect {
+    /* add gradient here*/
+}
+
+@keyframes showup {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+/* elements & images */
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+/* sections */
+section {
+    display: block;
+    margin-left: 0px;
+}
+
+/* header & menu section */
+.mainMenu {
+    display: inline-block;
+    font-family: 'poppins, calibri, sans-serif';
+    position: sticky;
+    background-color: #030018;
+    width: 100%;
+    padding-left: 30%;
+    margin-left: 0px;
+}
+
+.menuItem {
+    display: inline;
+    color:white;
+    position: relative;
+    padding-right: 80px;
+    font-size: 20px;
+}
+
+.serviceBlock__tittle {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'poppins, calibri, sans-serif';
+}
+
+/* hero section */
+.heroSection {
+    border: hidden;
+    background-color: #030018;
+    color: white;
+    padding-left: 68px;
+    font-family: Poppins, calibri, sans-serif;
+    width: 100%;
+    height: 812px;
+    overflow: visible;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.heroSection__tittle {
+    width: 700px;
+    position: relative;
+}
+
+.heroSection__subTittle {
+    width: 560px;
+    position: relative;
+    font-size: 20px;
+}
+
+.buttonCta {
+    padding: 4px;
+    background-color: #18EAEA;
+}
+
+/* service section */
+.servicesSection {
+    width: 100%;
+    height: auto;
+    background-color: #030018;
+    padding-left: 68px;
+    position:relative;
+}
+
+.servicesSection__tittle {
+    padding-left: 30%;
+    width: 588px;
+    font-size: 36px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    background-color: #030018;
+    align-content: center;
+}
+
+.serviceBlock__tittle {
+    padding: center;
+    padding-top: 115px;
+    position: absolute;
+    text-align: center;
+    width: 368px;
+    size: 24px;
+    font-style: bold;
+    color: white;
+    opacity: 100%;
+}
+
+.serviceBlock__text {
+    width: 313px;
+    height: 216;
+    color: #887E7E;
+    position: absolute;
+    padding-bottom: 16px;
+    padding-top: 207px;
+    padding-left: 58px;
+    opacity: 100%;
+    text-align: center;
+}
+
+.serviceBlock {
+    border-radius: 12px;
+    background-color: #1E1E1E;
+    width: 440px;
+    height: 440px;
+    margin-bottom: 68px;
+    display: inline-block;
+    margin-right: 51px;
+}
+
+/* testimonials section */
+.testimonialSection {
+    width: 100%;
+    height: 832px;
+    margin: 0px;
+    background-color: #030018;
+}
+
+.testimonialSection_text {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    width: 1080px;
+}
+
+/* Project Section*/
+
+.projectsSection {
+    width: 100%;
+    background-color: #030018;
+}
+
+.projectSectionBlock {
+    border-radius: 12px;
+    background-color: #1E1E1E;
+    width: 1376px;
+    height: 440px;
+    margin-bottom: 68px;
+    margin-right: 51px;
+    margin-left: 68px;
+    padding-left: 66px;
+    display: inline-block;
+}
+
+.projectSectionBlock__tittle {
+    color: white;
+    font-size: 36px;
+}
+
+.projectSectionBlock__content {
+    color: white;
+    font-size: 20px;
+}
+
+.contentPill-active {
+    width: 228px;
+    padding: 4px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 24px;
+    border-style:ridge;
+    border-color: #E815AD;
+    font-size: 20px;
+    text-align: center;
+    color: #E815AD;
+    display: inline-block;
+}
+
+/* About me Section */
+
+.aboutMeSection {
+    color: white;
+    background-color: #030018;
+    font-size: 36px;
+    margin-bottom: 68px;
+}
+
+.aboutMeSection__tittle {
+    width: 611px;
+    color: white;
+}
+
+.aboutMeSection__content {
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Expertize Section */
+.expertizeSection {
+    background-color: #030018;
+    color: white;
+}
+
+.expertisePills {
+    padding: 57px;
+}
+
+.expertizeButton {
+
+}
+
+/* footer */
+.footer {
+    background-color: #030018;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 50px;
+}
