@@ -198,6 +198,7 @@ section {
     border-color: #E815AD;
     font-size: 20px;
     text-align: center;
+    font-style: bold;
     color: #E815AD;
     display: inline-block;
 }
@@ -224,6 +225,7 @@ section {
 
 /* Expertize Section */
 .expertizeSection {
+    width: 100%;
     background-color: #030018;
     color: white;
 }
@@ -232,8 +234,30 @@ section {
     padding: 57px;
 }
 
+.expertizeSectionBlock {
+    width: 1377px;
+    height: 430px;
+    background-color: #1E1E1E;
+    display: inline-block;
+}
+
+.expertizeSectionBlockImage {
+    background-color: black;
+    width: 688px;
+    height: 430px;
+}
+
 .expertizeButton {
 
+}
+
+/* Call to Action Section */
+
+.callToActionSection {
+    width: 100%;
+    height: 832px;
+    background-color: #030018;
+    color: white;
 }
 
 /* footer */
@@ -245,4 +269,5 @@ section {
     vertical-align: middle;
     width: 100%;
     height: 50px;
+    position: relative;
 }
