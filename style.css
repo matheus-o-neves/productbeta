@@ -85,7 +85,12 @@ section {
 
 .buttonCta {
     padding: 4px;
+    margin-top: 8px;
     background-color: #18EAEA;
+    border-radius: 8px;
+    width: 224px;
+    height: 46px;
+    font-size: 20px;
 }
 
 /* service section */
@@ -269,5 +274,46 @@ section {
     vertical-align: middle;
     width: 100%;
     height: 50px;
+    position: relative;
+}
+
+/* form */ 
+.form {
+    color: white;
+    border-radius: 12px;
+    background-color: #1E1E1E;
+    width: 1376px;
+    height: 440px;
+    margin-left: 68px;
+    padding-left: 68px;
+    padding-top: 68px;
+    display: inline-block;
+}
+
+.formSection {
+    background-color: #030018;
+    width: 100%;
+    height: 100%;
+    min-height: 832px;
+}
+
+.formName {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 36px;
+    position: relative;
+}
+
+.formEmail {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 36px;
+    position: relative;
+}
+
+.formDescription {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 36px;
     position: relative;
 }
