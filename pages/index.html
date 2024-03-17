@@ -3,62 +3,107 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/style.css">
    <title>Product Beta</title>
 </head>
 
 <body>
-   <Header>
-      <nav class="mainMenu">
-         <ul>
-            <li class="menuItem"><a href="index.html">Home</a></li>
-            <li class="menuItem"><a href="projects.html">Projects</a></li>
-            <li class="menuItem"><a href="aboutme.html">Sobre</a></li>
-            <li class="menuItem"><a href="content.html">Conteúdo</a></li>
-            <li class="menuItem"><a href="contact.html">Contato</a></li>
+   <header class="header">
+      <div class="logo">
+         <img src="/assets/images/logo.png" alt="ProductBetaLogo">
+      </div>
+      <nav class="navBar">
+         <ul class="mainMenu">
+            <li class="menuItem">
+               <a href="/pages/index.html">Home</a>
+            </li>
+            <li class="menuItem">
+               <a href="/pages/projects.html">Projects</a>
+            </li>
+            <li class="menuItem">
+               <a href="/pages/aboutme.html">Sobre</a>
+            </li>
+            <li class="menuItem">
+               <a href="/pages/content.html">Conteúdo</a>
+            </li>
+            <li class="menuItem">
+               <a href="/pages/contact.html">Contato</a>
+            </li>
          </ul>
       </nav> 
-   </Header>
+      <div class="language">
+         <div class="languagesPtEn">
+            🇧🇷
+         </div>
+         <div class="languagesPtEn">
+            🇬🇧
+         </div>
+      </div>
+   </header>
    
    <section class="heroSection">
-      <div class="heroSection__tittle">
-         <h1><span class="mainTittle__efect"> Crie, lance e escale</span> produtos que seus clientes amam</h1>
-      </div>
-      <div class="heroSection__subTittle">
+      <h1 class="heroSection__tittle">
+         <span class="mainTittle__efect"> Crie, lance e escale</span> produtos que seus clientes amam
+      </h1>
+      <p class="heroSection__subTittle">
          Transforme ideias em produtos tangíveis e lucrativos que impulsionam o crescimento do seu negócio contrando um Product Manager as a Service.
-      </div>
-      <br>
+      </p>
       <div>
-         <button class="buttonCTA">Marcar uma Call</button>
+         <a class="button">Marcar uma Call</a>
       </div>
    </section>
 
+   <h2 class="servicesSection__tittle">Como posso <span class="subTittle__efect"> contribuir para o sucesso da sua empresa_</span></h2> 
+
    <section class="servicesSection">
-      <div> <h2 class="servicesSection__tittle">Como posso <span class="subTittle__efect"> contribuir para o sucesso da sua empresa_</span></h2> </div>
       <br>
       <div class="serviceBlock">
-         <div> <span class="serviceBlock__tittle">Discovery & User Research</span></div>
-         <div class="serviceBlock__text"> Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.</div>
+         <h3 class="serviceBlock__tittle"> 
+            Discovery & User Research
+         </h3>
+         <p class="serviceBlock__text"> Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.</p>
       </div>
       <div class="serviceBlock">
-         <div> <span class="serviceBlock__tittle">Growth & Analytics</span></div>
-         <div class="serviceBlock__text"> Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.</div>
+         <h3 class="serviceBlock__tittle"> 
+            Growth & Analytics
+         </h3>
+         <p class="serviceBlock__text"> 
+            Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.
+         </p>
       </div>
       <div class="serviceBlock">
-         <div> <span class="serviceBlock__tittle">Project Management & Liderança</span></div>
-         <div class="serviceBlock__text"> Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.</div>
+         <h3 class="serviceBlock__tittle"> 
+            Project Management & Liderança
+         </h3>
+         <p class="serviceBlock__text"> 
+            Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.
+         </p>
       </div>
       <div class="serviceBlock">
-         <div> <span class="serviceBlock__tittle"> Estratégia & Go-To-Market </span> </div>
-         <div class="serviceBlock__text"> Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.</div>
+         <h3 class="serviceBlock__tittle"> 
+            Estratégia & Go-To-Market
+         </h3>
+         <p class="serviceBlock__text"> 
+            Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.
+         </p>
       </div>
       <div class="serviceBlock">
-         <div> <span class="serviceBlock__tittle">Treinamento & Comunicação</span></div>
-         <div class="serviceBlock__text"> Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.</div>
+         <h3 class="serviceBlock__tittle"> 
+            Treinamento & Comunicação
+         </h3>
+         <p class="serviceBlock__text"> 
+            Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.
+         </p>
       </div>
       <div class="serviceBlock">
-         <div> <span class="serviceBlock__tittle">Prototipação & Testes</span></div>
-         <div class="serviceBlock__text"> Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.</div>
+         <h3 class="serviceBlock__tittle">Prototipação & Testes
+         </h3>
+         <p class="serviceBlock__text"> 
+            Entenda as reais necessidades de seus usuários, desenvolva produtos que o mercado deseja e evite gastos desnecessários.
+         </p>
       </div class="serviceBlock">   
    </section>
 
